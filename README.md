@@ -16,6 +16,8 @@ A boilerplate for creating awesome Vorpal apps.
  * Each module should expose a function that takes a Vorpal instance.
  * Add the commands you want for that module!
  * Husky is setup to run tests and lint the code.
+ * Run `npm run test-local` to test your code.
+ * Run `npm start` to start your app.
 
 ### Example
 ```javascript
