@@ -10,6 +10,7 @@ A boilerplate for creating awesome Vorpal apps.
  * [Sinon](https://sinonjs.org)
  * [NYC](https://github.com/istanbuljs/nyc)
  * [Husky](https://github.com/typicode/husky)
+ * `.travis.yml` file for Travis CI integration
 
 ## How to use
  * Place your Vorpal Commands modules into the `commands` folder.
@@ -18,6 +19,7 @@ A boilerplate for creating awesome Vorpal apps.
  * Husky is setup to run tests and lint the code.
  * Run `npm run test-local` to test your code.
  * Run `npm start` to start your app.
+ * If you want to setup [Coveralls](https://coveralls.io) just go ahead to your Travis CI project and add the `COVERALLS_REPO_TOKEN` to your env vars.
 
 ### Example
 ```javascript
