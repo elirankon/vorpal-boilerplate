@@ -13,6 +13,8 @@ A boilerplate for creating awesome Vorpal apps.
  * `.travis.yml` file for Travis CI integration
 
 ## How to use
+ * Fork this repo
+ * Rename your local repo, change project info in `package.json`, etc.
  * Place your Vorpal Commands modules into the `commands` folder.
  * Each module should expose a function that takes a Vorpal instance.
  * Add the commands you want for that module!
